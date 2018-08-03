@@ -220,6 +220,13 @@ header.masthead .masthead-subtitle {
   line-height: 1.5rem;
 }
 
+header.masthead .masthead-subtitle-Action {
+  font-size:  2rem;
+  line-height: 2rem;
+  font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+}
+
 header.masthead .scroll-down {
   position: absolute;
   bottom: 20px;
