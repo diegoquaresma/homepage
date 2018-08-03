@@ -221,9 +221,10 @@ header.masthead .masthead-subtitle {
 }
 
 header.masthead .masthead-subtitle-Action {
-  font-size:  2rem;
-  line-height: 2rem;
+  font-size:  1.8rem;
+  line-height: 1.8rem;
   font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 900;
   text-transform: uppercase;
 }
 
