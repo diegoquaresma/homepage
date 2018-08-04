@@ -207,13 +207,29 @@ header.masthead .masthead-img {
   max-height: 150px;
 }
 
+/*Fontes externas*/
+@font-face{
+  font-family: 'FontLogo';
+  src: url("../vendor/font-awesome/fonts/Misstral\ Personal\ Use.ttf")
+}
+
+
+/*
 header.masthead .masthead-title {
-  font-size: 4rem;
-  line-height: 4rem;
+  font-size: 20rem;
+  line-height: 20rem;
   font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 900;
   text-transform: uppercase;
 }
+*/
+
+header.masthead .masthead-title {
+  font-size: 20rem;
+  line-height: 20rem;
+  font-family: 'FontLogo';
+}
+
 
 header.masthead .masthead-subtitle {
   font-size: 1.5rem;
@@ -227,6 +243,7 @@ header.masthead .masthead-subtitle-Action {
   font-weight: 900;
   text-transform: uppercase;
 }
+
 
 header.masthead .scroll-down {
   position: absolute;
