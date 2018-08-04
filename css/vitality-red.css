@@ -224,6 +224,18 @@ header.masthead .masthead-title {
 }
 */
 
+@media screen and (max-width:480px) {
+  html {
+  font-size: 50%;
+  }
+  }
+  
+  @media screen and (min-width: 481px) and (max-width: 768px) {
+  html {
+  font-size: 75%;
+  }
+  }
+  
 header.masthead .masthead-title {
   font-size: 20rem;
   line-height: 20rem;
