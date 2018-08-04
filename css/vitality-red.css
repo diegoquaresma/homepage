@@ -209,7 +209,7 @@ header.masthead .masthead-img {
 
 /*Fontes externas*/
 @font-face{
-  font-family: 'FontLogo';
+  font-family: 'FontLogo' ;
   src: url("../vendor/font-awesome/fonts/Misstral\ Personal\ Use.ttf")
 }
 
@@ -228,6 +228,7 @@ header.masthead .masthead-title {
   font-size: 20rem;
   line-height: 20rem;
   font-family: 'FontLogo';
+  font-weight: 900;
 }
 
 
