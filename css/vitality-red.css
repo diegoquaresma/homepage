@@ -60,10 +60,18 @@ body {
   font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+@font-face{
+  font-family: 'FontMenu' ;
+  src: url("../vendor/font-awesome/fonts/Beauty\ Mountains\ Personal\ Use.ttf")
+}
+
 a {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
   color: #EF4035;
   -webkit-transition: all 0.5s;
-  transition: all 0.5s;
+  transition: all 0.5s; 
+  font-family: 'FontMenu';
 }
 
 a:hover, a:focus {
@@ -213,6 +221,7 @@ header.masthead .masthead-img {
   src: url("../vendor/font-awesome/fonts/Misstral\ Personal\ Use.ttf")
 }
 
+
 /*
 header.masthead .masthead-title {
   font-size: 20rem;
@@ -221,19 +230,6 @@ header.masthead .masthead-title {
   font-weight: 900;
   text-transform: uppercase;
 }
-
-
-@media screen and (max-width:480px) and (max-width: 768px){
-  html {
-  font-size: 25%;
-  }
-  }
-  
-  @media screen and (min-width: 481px) and (max-width: 768px) {
-  html {
-  font-size: 50%;
-  }
-  }
 */
 
 header.masthead .masthead-title {
@@ -255,7 +251,6 @@ header.masthead .masthead-subtitle-Action {
   font-weight: 900;
   text-transform: uppercase;
 }
-
 
 header.masthead .scroll-down {
   position: absolute;
