@@ -71,7 +71,7 @@ a {
   color: #EF4035;
   -webkit-transition: all 0.5s;
   transition: all 0.5s; 
-  font-family: 'FontMenu';
+
 }
 
 a:hover, a:focus {
