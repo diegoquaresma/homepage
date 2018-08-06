@@ -71,13 +71,28 @@ a {
   color: #EF4035;
   -webkit-transition: all 0.5s;
   transition: all 0.5s; 
-
+  font-family: 'FontMenu';
 }
 
 a:hover, a:focus {
   color: #c81b10;
   text-decoration: none;
 }
+
+a1 {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  color: #EF4035;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s; 
+}
+
+a1:hover, a1:focus {
+  color: #c81b10;
+  text-decoration: none;
+}
+
+
 
 p {
   font-size: 18px;
@@ -90,6 +105,7 @@ p.lead {
   font-weight: 900;
   text-transform: uppercase;
 }
+
 
 h1,
 h2,
@@ -399,6 +415,10 @@ header.video video {
 }
 
 .team-carousel .item .team-caption .list-team-social li a {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.team-carousel .item .team-caption .list-team-social li a1 {
   color: rgba(255, 255, 255, 0.7);
 }
 
@@ -937,6 +957,14 @@ footer.footer a {
 }
 
 footer.footer a:hover {
+  color: white;
+}
+
+footer.footer a1 {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+footer.footer a1:hover {
   color: white;
 }
 
