@@ -92,8 +92,6 @@ a1:hover, a1:focus {
   text-decoration: none;
 }
 
-
-
 p {
   font-size: 18px;
   line-height: 1.5;
@@ -123,7 +121,7 @@ h6 {
     font-size: 52px;
   }
   h2 {
-    font-size: 50px;
+    font-size: 52px;
   }
 }
 
@@ -459,7 +457,7 @@ header.video video {
     padding: 150px 0;
   }
   .call-to-action span.quote {
-    font-size: 36px;
+    font-size: 30px;
     line-height: 38px;
   }
 }
