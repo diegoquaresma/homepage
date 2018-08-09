@@ -446,7 +446,7 @@ header.video video {
 }
 
 .call-to-action span.quote {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 300;
   line-height: 32px;
   display: block;
@@ -467,7 +467,7 @@ header.video video {
     padding: 300px 0;
   }
   .call-to-action span.quote {
-    font-size: 30px;
+    font-size: 40px;
     line-height: 42px;
   }
 }
