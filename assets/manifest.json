@@ -52,22 +52,26 @@
   {
     "src": "ms-icon-310x310.png",
     "sizes": "384x384",
-    "type": "image\/png"
+    "type": "image\/png",
+    "density": "4.0"
   },
   {
     "src": "atoms 512",
     "sizes": "512x512",
-    "type": "image\/png"
+    "type": "image\/png",
+    "density": "8.0"
   },
   {
     "src": "atoms 512",
     "sizes": "1334x750",
-    "type": "image\/png"
-  }  ,
+    "type": "image\/png",
+    "density": "8.0"
+  },
   {
     "src": "atoms 512",
     "sizes": "1024x1024",
-    "type": "image\/png"
+    "type": "image\/png",
+    "density": "8.0"
   }
  ],
  "splash_pages": null
