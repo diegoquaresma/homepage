@@ -3,7 +3,7 @@
 
   <head>
   
-    <link rel="manifest" href="/homepage/manifest.json">
+    
 
 
     <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
@@ -100,7 +100,7 @@
     <!-- <link href="css/vitality-tan.css" rel="stylesheet" type="text/css"> -->
     <!-- <link href="css/vitality-turquoise.css" rel="stylesheet" type="text/css"> -->
     <!-- <link href="css/vitality-yellow.css" rel="stylesheet" type="text/css"> -->
-
+    <link rel="manifest" href="/homepage/manifest.json">
   </head>
 
   <body id="page-top">
@@ -109,5 +109,15 @@
    
 
   </body>
-
+  <script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/homepage/sw.js')
+      .then(function () {
+        console.log('service worker registered');
+      })
+      .catch(function () {
+        console.warn('service worker failed');
+      });
+  }
+</script>
 </html>
