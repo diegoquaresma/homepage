@@ -36,16 +36,6 @@
                 });
             });
 
-
-          if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('/homepage/sw.js')
-              .then(function () {
-                console.log('service worker registered');
-              })
-              .catch(function () {
-                console.warn('service worker failed');
-              });
-          }
     </script>
     
        
@@ -106,18 +96,20 @@
   <body id="page-top">
 
     <!-- Navigation -->
-   
+  
+    <script>
+      if (navigator.serviceWorker.controller) {
+        console.log('[PWA Builder] active service worker found, no need to register')
+      } else {
+        //Register the ServiceWorker
+        navigator.serviceWorker.register('pwabuilder-sw.js', {
+          scope: './'
+        }).then(function(reg) {
+          console.log('Service worker has been registered for scope:'+ reg.scope);
+        });
+      }
+    </script>
 
   </body>
-  <script>
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/homepage/sw.js')
-      .then(function () {
-        console.log('service worker registered');
-      })
-      .catch(function () {
-        console.warn('service worker failed');
-      });
-  }
-</script>
+
 </html>
