@@ -3,7 +3,7 @@
 
   <head>
   
-    <link rel="manifest" href="/manifest.json">
+    <link rel="manifest" href="/homepage/manifest.json">
 
 
     <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
@@ -38,7 +38,7 @@
 
 
           if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('/sw.js')
+            navigator.serviceWorker.register('/homepage/sw.js')
               .then(function () {
                 console.log('service worker registered');
               })
