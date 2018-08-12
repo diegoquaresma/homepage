@@ -4,7 +4,7 @@
 "name" : "Núcleo - Inovaction | Ideas",
 "scope" : "/",
 "display" : "standalone",
-"start_url": "/?utm_source=homescreen",
+"start_url" : "https://www.nucleo.sampa.br/",
 "short_name" : "Núcleo",
 "theme_color" : "transparent",
 "description" : "",
