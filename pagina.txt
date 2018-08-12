@@ -3,6 +3,7 @@
 
   <head>
   
+    <link rel="manifest" href="/manifest.json" />
     <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
     <script>
       var OneSignal = window.OneSignal || [];
@@ -32,7 +33,6 @@
                     userType: 'supplier', userActive: 'true'
                 });
             });
-
     </script>
     
        
@@ -41,7 +41,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>NÃºcleo - Inovaction | Ideas</title>
+    <title>Núcleo - Inovaction | Ideas</title>
 
     <link rel="icon" href="img/agency/portfolio/grid/Logo.JPG" type="image/x-icon" />
 
@@ -87,31 +87,13 @@
     <!-- <link href="css/vitality-tan.css" rel="stylesheet" type="text/css"> -->
     <!-- <link href="css/vitality-turquoise.css" rel="stylesheet" type="text/css"> -->
     <!-- <link href="css/vitality-yellow.css" rel="stylesheet" type="text/css"> -->
-    <link rel="apple-touch-icon" sizes="57x57" href="assets/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="assets/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="assets/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="assets/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="assets/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="assets/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="assets/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="assets/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="assets/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
-    <link rel="manifest" href="assets/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="assetss/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-    
+
   </head>
 
   <body id="page-top">
 
     <!-- Navigation -->
-     <!-- Navigation -->
-     <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
       <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">
           <!--<img class="img-fluid" src="img/agency/logo.svg" alt="">-->
@@ -135,7 +117,7 @@
               <a class="nav-link js-scroll-trigger" href="#work">Trabalhos</a>
             </li>
             <!--<li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#pricing">PreÃ§os</a>
+              <a class="nav-link js-scroll-trigger" href="#pricing">Preços</a>
             </li>-->
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contato</a>
@@ -173,8 +155,8 @@
     <section class="page-section" id="about">
       <div class="container-fluid">
         <div class="wow fadeIn text-center">
-          <h2>A experiÃªncia e a tecnologia reinventam o negÃ³cio do entretenimento</h2>
-          <p class="mb-0">"As relaÃ§Ãµes humanas sÃ£o a chave para o sucesso"</p>
+          <h2>A experiência e a tecnologia reinventam o negócio do entretenimento</h2>
+          <p class="mb-0">"As relações humanas são a chave para o sucesso"</p>
         </div>
         <hr class="colored">
         <br>
@@ -183,21 +165,21 @@
             <div class="wow fadeIn px-4 pb-4 pb-lg-0 h-100" data-wow-delay=".2s">
               <i class="fa fa-edit fa-4x"></i>
               <h3>Quem Somos</h3>
-              <p class="mb-0">A NÃºcleo Ã© uma hub de consultoria, dedicada a criar novas estratÃ©gias de linguagem para a reestruturaÃ§Ã£o e modernizaÃ§Ã£o da comunicaÃ§Ã£o no mercado do entretenimento.</p>
+              <p class="mb-0">A Núcleo é uma hub de consultoria, dedicada a criar novas estratégias de linguagem para a reestruturação e modernização da comunicação no mercado do entretenimento.</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6">
             <div class="wow fadeIn px-4 pb-4 pb-lg-0 h-100" data-wow-delay=".6s">
               <i class="fas fa-chart-line fa-4x"></i>
-              <h3>MissÃ£o</h3>
-              <p class="mb-0">Tornar o ambiente de eventos mais rentÃ¡vel, competitivo e sustentÃ¡vel por meio de storytelling, tecnologia e inovaÃ§Ã£o.</p>
+              <h3>Missão</h3>
+              <p class="mb-0">Tornar o ambiente de eventos mais rentável, competitivo e sustentável por meio de storytelling, tecnologia e inovação.</p>
             </div>
           </div>          
           <div class="col-lg-3 col-md-6">
             <div class="wow fadeIn px-4 pb-4 pb-lg-0 h-100" data-wow-delay=".4s">
               <i class="far fa-eye fa-4x"></i>
-              <h3>VisÃ£o</h3>
-              <p class="mb-0">Apostamos na mistura e na adequaÃ§Ã£o de tecnologias digitais e analÃ³gicas, a fim de alcanÃ§armos uma comunicaÃ§Ã£o e experiÃªncia mais direta, abrangente e contemporÃ¢nea para o seu evento.</p>
+              <h3>Visão</h3>
+              <p class="mb-0">Apostamos na mistura e na adequação de tecnologias digitais e analógicas, a fim de alcançarmos uma comunicação e experiência mais direta, abrangente e contemporânea para o seu evento.</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6">
@@ -205,10 +187,10 @@
               <i class="far fa-building fa-4x"></i>
               
               <h3>Valores</h3>
-              <p class="mb-0">A NÃºcleo tem o compromisso de conduzir o seu trabalho dentro dos seguintes valores:                 
+              <p class="mb-0">A Núcleo tem o compromisso de conduzir o seu trabalho dentro dos seguintes valores:                 
               <p class="mb-0">- Somos empreendedores e inovadores;</p>              
-              <p class="mb-0">- Temos na essÃªncia a construÃ§Ã£o de relacionamentos duradouros;</p>                                            
-              <p class="mb-0">- Valorizamos qualidade aliada Ã  simplicidade e praticidade;</p>                               
+              <p class="mb-0">- Temos na essência a construção de relacionamentos duradouros;</p>                                            
+              <p class="mb-0">- Valorizamos qualidade aliada à simplicidade e praticidade;</p>                               
               <p class="mb-0">- Responsabilidade socioambiental.</p>   
                 </p>
             </div>
@@ -221,7 +203,7 @@
    <!-- <section class="page-section bg-light" id="team">
       <div class="container text-center wow fadeIn">
         <h2>Nosso Time</h2>
-        <p class="mb-0">Somos um grupo de profissionais com uma paixÃ£o pela grande arte que serve a um propÃ³sito prÃ¡tico.</p>
+        <p class="mb-0">Somos um grupo de profissionais com uma paixão pela grande arte que serve a um propósito prático.</p>
         <hr class="colored">
         <div class="team-carousel owl-carousel owl-theme mt-auto">
 
@@ -232,7 +214,7 @@
             <div class="team-caption">
               <h3>Alex Faria</h3>
               <hr class="colored">
-              <p>SÃ³cio & Founder</p>
+              <p>Sócio & Founder</p>
               <ul class="list-inline list-team-social">
                <!--<li class="list-inline-item">
                   <a href="https://www.facebook.com/alex.faria.58">
@@ -260,7 +242,7 @@
             <div class="team-caption">
               <h3>Chaverinho</h3>
               <hr class="colored">
-              <p>SÃ³cio & Founder</p>
+              <p>Sócio & Founder</p>
               <ul class="list-inline list-team-social">
                <!-- <li class="list-inline-item">
                   <a href="https://www.facebook.com/search/str/bboychaverinho/keywords_search">
@@ -288,7 +270,7 @@
             <div class="team-caption">
               <h3>Diego Quaresma</h3>
               <hr class="colored">
-              <p>SÃ³cio & Founder</p>               
+              <p>Sócio & Founder</p>               
               <ul class="list-inline list-team-social">
                 <!--<li class="list-inline-item">
                   <a href="https://www.facebook.com/diego.quaresma.10">
@@ -321,7 +303,7 @@
             <div class="team-caption">
               <h3>Lecuk Ishida</h3>
               <hr class="colored">
-              <p>SÃ³cio & Founder</p>
+              <p>Sócio & Founder</p>
               <ul class="list-inline list-team-social">
                 <!--<li class="list-inline-item">
                   <a href="https://www.facebook.com/search/top/?q=lecuk%20ishida">
@@ -388,7 +370,7 @@
     <section class="call-to-action" style="background-image: url('img/agency/backgrounds/bg-pricing.jpg');" id="team">
       <div class="container text-center wow fadeIn">
         <h2>Nosso Time</h2>
-        <p class="mb-0">Somos gente pensando em pessoas, acreditamos que o sucesso dos negÃ³cios esta relacionado diretamente a qualidade das relaÃ§Ãµes humanas.</p>
+        <p class="mb-0">Somos gente pensando em pessoas, acreditamos que o sucesso dos negócios esta relacionado diretamente a qualidade das relações humanas.</p>
         <hr class="colored">
       </div>
 
@@ -397,12 +379,12 @@
           <div class="col-md-10 mx-auto">          
             <span class="quote">Cada
               <span class="text-primary">projeto</span>
-              Ã© pensado e criado especialmente para cada tipo de demanda em
+              é pensado e criado especialmente para cada tipo de demanda em
               <span class="text-primary">eventos,</span>
               no intuito de
               <span class="text-primary">potencializar</span>   
-              a experiÃªncia do pÃºblico e objetivos de 
-              <span class="text-primary">comunicaÃ§Ã£o</span>.</span>
+              a experiência do público e objetivos de 
+              <span class="text-primary">comunicação</span>.</span>
             <hr class="colored">
             <div class="scroll-down">
                 <a class="btn btn-primary js-scroll-trigger" href="#services">                   
@@ -434,11 +416,11 @@
                 <h4 class="media-heading">Planejamento</h4>
                 <ul>
                   <li>Analise do projeto</li>
-                  <li>IdentificaÃ§Ã£o de problemas</li>
+                  <li>Identificação de problemas</li>
                   <li>Estudo de persona</li>
-                  <li>Planejamento estratÃ©gico</li>
-                  <li>DefiniÃ§Ã£o de metas e objetivos</li>
-                  <li>Cronograma de implantaÃ§Ã£o</li>
+                  <li>Planejamento estratégico</li>
+                  <li>Definição de metas e objetivos</li>
+                  <li>Cronograma de implantação</li>
                 </ul>
               </div>
             </div>
@@ -453,10 +435,10 @@
               <div class="media-body">
                 <h4 class="media-heading">Desenvolvimento</h4>
                 <ul>
-                  <li>ConstruÃ§Ã£o do projeto</li>
-                  <li>ImplantaÃ§Ã£o</li>
+                  <li>Construção do projeto</li>
+                  <li>Implantação</li>
                   <li>Monitoramento e controle</li>
-                  <li>RevisÃ£o de escopo</li>
+                  <li>Revisão de escopo</li>
                 </ul>
               </div>
             </div>
@@ -471,7 +453,7 @@
               <div class="media-body">
                 <h4 class="media-heading">Entrega</h4>
                 <ul>
-                  <li>LanÃ§amento</li>
+                  <li>Lançamento</li>
                   <li>Acompanhamento de engajamento e resultado</li>
                   <li>Entrega do projeto</li>
                   <li>Analytics dos resultados</li>
@@ -492,13 +474,13 @@
           <div class="row">
             <div class="col-md-10 mx-auto">          
               <span class="quote">Fazemos uma 
-                <span class="text-primary">anÃ¡lise tÃ©cnica</span>
-                cuidadosa e Ã© proposta uma
-                <span class="text-primary">estratÃ©gia </span>
-                de implantaÃ§Ã£o e produÃ§Ã£o da nova comunicaÃ§Ã£o do seu evento.
+                <span class="text-primary">análise técnica</span>
+                cuidadosa e é proposta uma
+                <span class="text-primary">estratégia </span>
+                de implantação e produção da nova comunicação do seu evento.
                 <span class="text-primary">Sempre</span>   
-                agregando soluÃ§Ãµes criativas, storytelling, tecnologia com
-                <span class="text-primary">inovaÃ§Ã£o</span>                
+                agregando soluções criativas, storytelling, tecnologia com
+                <span class="text-primary">inovação</span>                
                 e criando impacto.</span>
               <hr class="colored">
               <br>
@@ -532,12 +514,12 @@
         <div class="portfolio-grid clearfix" id="portfolioList">
 
           <!-- Grid Item 1 -->
-          <div class="mix identity" href="img/agency/portfolio/grid/grid-1.jpg" title="AgÃªncia Fabri|k">
+          <div class="mix identity" href="img/agency/portfolio/grid/grid-1.jpg" title="Agência Fabri|k">
             <div class="portfolio-wrapper">
               <img src="img/agency/portfolio/grid/grid-1.jpg" alt="">
               <div class="caption">
                 <div class="caption-text">
-                  <a class="text-title">AgÃªncia Fabri|K</a>
+                  <a class="text-title">Agência Fabri|K</a>
                   <span class="text-category">Fabrik</span>
                 </div>
                 
@@ -589,13 +571,13 @@
           </div>
 
           <!-- Grid Item 5 -->
-          <div class="mix web" href="img/agency/portfolio/grid/grid-3.jpg" title="EspaÃ§o de eventos ABolha">
+          <div class="mix web" href="img/agency/portfolio/grid/grid-3.jpg" title="Espaço de eventos ABolha">
             <div class="portfolio-wrapper">
               <img src="img/agency/portfolio/grid/grid-3.jpg" alt="">
               <div class="caption">
                 <div class="caption-text">
                   <a class="text-title">ABolha</a>
-                  <span class="text-category">EspaÃ§o de eventos ABolha</span>
+                  <span class="text-category">Espaço de eventos ABolha</span>
                 </div>
                 <div class="caption-bg"></div>
               </div>
@@ -749,7 +731,7 @@
         <div class="text-center">
           <h2>CONTATE-NOS</h2>
           <hr class="colored">
-          <p>Informe-nos sobre o seu prÃ³ximo projeto e informaremos o que podemos fazer para ajudÃ¡-lo.</p>
+          <p>Informe-nos sobre o seu próximo projeto e informaremos o que podemos fazer para ajudá-lo.</p>
         </div>
         <div class="row mt-4">
           <div class="col-lg-8 mx-auto">
@@ -764,14 +746,14 @@
               <div class="row control-group">
                 <div class="form-group col-12 floating-label-form-group controls">
                   <label>Email Address</label>
-                  <input type="email" class="form-control" placeholder="Email" id="email" required data-validation-required-message="Por favor, indique o seu endereÃ§o de e-mail.">
+                  <input type="email" class="form-control" placeholder="Email" id="email" required data-validation-required-message="Por favor, indique o seu endereço de e-mail.">
                   <p class="help-block text-danger"></p>
                 </div>
               </div>
               <div class="row control-group">
                 <div class="form-group col-12 floating-label-form-group controls">
                   <label>Phone Number</label>
-                  <input type="tel" class="form-control" placeholder="Telefone" id="phone" required data-validation-required-message="Por favor, digite seu nÃºmero de telefone.">
+                  <input type="tel" class="form-control" placeholder="Telefone" id="phone" required data-validation-required-message="Por favor, digite seu número de telefone.">
                   <p class="help-block text-danger"></p>
                 </div>
               </div>
@@ -812,8 +794,8 @@
             <h4>
               <i class="fa fa-map-marker"></i>
               Visita</h4>
-            <p>Rua Professor Cesare Lombroso, 161 - 3Â° Andar               
-              <br>Bom Retiro, SÃ£o Paulo - SP 
+            <p>Rua Professor Cesare Lombroso, 161 - 3° Andar               
+              <br>Bom Retiro, São Paulo - SP 
               <br>CEP: 01122-021</p>
           </div>
           <div class="col-md-4 footer-contact-details">
@@ -847,7 +829,7 @@
             </ul>
           </div>
         </div>
-        <p class="copyright">&copy; NÃšCLEO 2018 Todos os direitos reservados.</p>
+        <p class="copyright">&copy; NÚCLEO 2018 Todos os direitos reservados.</p>
       </div>
     </footer>
 
@@ -900,7 +882,7 @@
                       <strong>Todos os direitos reservados.</strong>
                     </li>
                     <li>Date:
-                      <strong>Â© NÃšCLEO 2018</strong>
+                      <strong>© NÚCLEO 2018</strong>
                     </li>
                     <li>Service:
                       <strong>Web Development</strong>
@@ -965,7 +947,7 @@
                       <strong>Todos os direitos reservados.</strong>
                     </li>
                     <li>Date:
-                      <strong>Â© NÃšCLEO 2018</strong>
+                      <strong>© NÚCLEO 2018</strong>
                     </li>
                     <li>Service:
                       <strong>Web Development</strong>
@@ -1030,7 +1012,7 @@
                       <strong>Todos os direitos reservados.</strong>
                     </li>
                     <li>Date:
-                      <strong>Â© NÃšCLEO 2018</strong>
+                      <strong>© NÚCLEO 2018</strong>
                     </li>
                     <li>Service:
                       <strong>Web Development</strong>
@@ -1095,7 +1077,7 @@
                       <strong>Todos os direitos reservados.</strong>
                     </li>
                     <li>Date:
-                      <strong>Â© NÃšCLEO 2018</strong>
+                      <strong>© NÚCLEO 2018</strong>
                     </li>
                     <li>Service:
                       <strong>Web Development</strong>
@@ -1131,21 +1113,6 @@
     <!-- Custom scripts for this theme -->
     <script src="js/vitality.js"></script>
     <script src="js/mixitup-config.js"></script>
-
-
-
-    <script>
-      if (navigator.serviceWorker.controller) {
-        console.log('[PWA Builder] active service worker found, no need to register')
-      } else {
-        //Register the ServiceWorker
-        navigator.serviceWorker.register('pwabuilder-sw.js', {
-          scope: './'
-        }).then(function(reg) {
-          console.log('Service worker has been registered for scope:'+ reg.scope);
-        });
-      }
-    </script>
 
   </body>
 
