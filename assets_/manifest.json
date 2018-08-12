@@ -1,17 +1,10 @@
 {
-    "dir" : "ltr",
-    "lang" : "pt-br",
-    "name" : "Núcleo - Inovaction | Ideas",
-    "scope" : "/",
-    "display" : "standalone",
-    "start_url" : "https://www.nucleo.sampa.br/",
-    "short_name" : "N",
-    "theme_color" : "transparent",
-    "description" : "",
-    "orientation" : "any",
-    "background_color" : "transparent",
-    "related_applications" : "",
-    "prefer_related_applications" : "false",
+"name": "AgilePoker",
+"short_name": "AgilePoker",
+"theme_color": "#2a0044",
+"background_color": "#2a0044",
+"display": "standalone",
+"start_url" : "https://www.nucleo.sampa.br/",
  "icons": [
   {
    "src": "android-icon-36x36.png",
