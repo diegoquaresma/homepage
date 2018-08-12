@@ -3,6 +3,7 @@
 
   <head>
   
+    <link rel="manifest" href="/manifest.json" />
     <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
     <script>
       var OneSignal = window.OneSignal || [];
@@ -32,7 +33,6 @@
                     userType: 'supplier', userActive: 'true'
                 });
             });
-
     </script>
     
        
@@ -87,31 +87,13 @@
     <!-- <link href="css/vitality-tan.css" rel="stylesheet" type="text/css"> -->
     <!-- <link href="css/vitality-turquoise.css" rel="stylesheet" type="text/css"> -->
     <!-- <link href="css/vitality-yellow.css" rel="stylesheet" type="text/css"> -->
-    <link rel="apple-touch-icon" sizes="57x57" href="assets/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="assets/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="assets/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="assets/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="assets/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="assets/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="assets/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="assets/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="assets/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
-    <link rel="manifest" href="assets/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="assetss/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-    
+
   </head>
 
   <body id="page-top">
 
     <!-- Navigation -->
-     <!-- Navigation -->
-     <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
       <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">
           <!--<img class="img-fluid" src="img/agency/logo.svg" alt="">-->
@@ -1131,21 +1113,6 @@
     <!-- Custom scripts for this theme -->
     <script src="js/vitality.js"></script>
     <script src="js/mixitup-config.js"></script>
-
-
-
-    <script>
-      if (navigator.serviceWorker.controller) {
-        console.log('[PWA Builder] active service worker found, no need to register')
-      } else {
-        //Register the ServiceWorker
-        navigator.serviceWorker.register('pwabuilder-sw.js', {
-          scope: './'
-        }).then(function(reg) {
-          console.log('Service worker has been registered for scope:'+ reg.scope);
-        });
-      }
-    </script>
 
   </body>
 
