@@ -1,17 +1,17 @@
 {
-    "dir" : "ltr",
-    "lang" : "pt-br",
-    "name" : "Núcleo - Inovaction | Ideas",
-    "scope" : "/",
-    "display" : "standalone",
-    "start_url" : "https://www.nucleo.sampa.br/",
-    "short_name" : "Núcleo",
-    "theme_color" : "transparent",
-    "description" : "",
-    "orientation" : "any",
-    "background_color" : "transparent",
-    "related_applications" : "",
-    "prefer_related_applications" : "false",
+"dir" : "ltr",
+"lang" : "pt-br",
+"name" : "Núcleo - Inovaction | Ideas",
+"scope" : "/",
+"display" : "standalone",
+"start_url" : "https://www.nucleo.sampa.br/",
+"short_name" : "Núcleo",
+"theme_color" : "transparent",
+"description" : "",
+"orientation" : "any",
+"background_color" : "transparent",
+"related_applications" : "",
+"prefer_related_applications" : "false",
  "icons": [
   {
    "src": "android-icon-36x36.png",
@@ -57,6 +57,17 @@
   {
     "src": "atoms 512",
     "sizes": "512x512",
+    "type": "image/png"
+  }},
+  {
+    "src": "atoms 512",
+    "sizes": "1334x750",
+    "type": "image/png"
+  }
+  ,
+  {
+    "src": "atoms 512",
+    "sizes": "1024x1024",
     "type": "image/png"
   }
  ],
