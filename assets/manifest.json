@@ -52,23 +52,22 @@
   {
     "src": "ms-icon-310x310.png",
     "sizes": "384x384",
-    "type": "image/png"
+    "type": "image\/png"
   },
   {
     "src": "atoms 512",
     "sizes": "512x512",
-    "type": "image/png"
-  }},
+    "type": "image\/png"
+  },
   {
     "src": "atoms 512",
     "sizes": "1334x750",
-    "type": "image/png"
-  }
-  ,
+    "type": "image\/png"
+  }  ,
   {
     "src": "atoms 512",
     "sizes": "1024x1024",
-    "type": "image/png"
+    "type": "image\/png"
   }
  ],
  "splash_pages": null
