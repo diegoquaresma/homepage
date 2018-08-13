@@ -1,5 +1,18 @@
 //This is the "Offline copy of pages" service worker
 
+
+// Detecta se o dispositivo está no iOS
+const isIos = () => {
+  const userAgent = window.navigator.userAgent.toLowerCase();
+  return /iphone|ipad|ipod/.test( userAgent );
+}
+// Detects if device is in standalone mode
+const isInStandaloneMode = () => ('standalone' in window.navigator) && (window.navigator.standalone);
+// Verifica se deve exibir notificação popup de instalação:
+if (isIos() && !isInStandaloneMode()) {
+  this.setState({ showInstallMessage: true });
+}     
+
 //Install stage sets up the index page (home page) in the cache and opens a new cache
 self.addEventListener('install', function(event) {
   var indexPage = new Request('index.html');
@@ -41,3 +54,5 @@ self.addEventListener('fetch', function(event) {
     })
   );
 })
+
+ 
