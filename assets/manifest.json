@@ -5,7 +5,7 @@
 "scope" : "/",
 "display" : "standalone",
 "start_url" : "https://www.nucleo.sampa.br/",
-"short_name" : "Núcleo",
+"short_name" : "Nucleo",
 "theme_color" : "#D3D3D3",
 "description" : "",
 "orientation" : "any",
