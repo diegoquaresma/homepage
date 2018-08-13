@@ -33,6 +33,18 @@
                 });
             });
 
+      // Detecta se o dispositivo está no iOS
+      const isIos = () => {
+        const userAgent = window.navigator.userAgent.toLowerCase();
+        return /iphone|ipad|ipod/.test( userAgent );
+      }
+      // Detects if device is in standalone mode
+      const isInStandaloneMode = () => ('standalone' in window.navigator) && (window.navigator.standalone);
+      // Verifica se deve exibir notificação popup de instalação:
+      if (isIos() && !isInStandaloneMode()) {
+        this.setState({ showInstallMessage: true });
+      }            
+
     </script>
     
        
@@ -111,7 +123,7 @@
     <link href="/apple_splash_1242.png" sizes="1242x2208" rel="apple-touch-startup-image" />
     <link href="/apple_splash_750.png" sizes="750x1334" rel="assets/atoms 512.png" />
     <link href="/apple_splash_640.png" sizes="640x1136" rel="apple-touch-startup-image" />
-    
+
   </head>
 
   <body id="page-top">
