@@ -56,7 +56,7 @@
     "density": "4.0"
   },
   {
-    "src": "atoms 512",
+    "src": "android-icon-36x36.png",
     "sizes": "512x512",
     "type": "image\/png",
     "density": "8.0"
