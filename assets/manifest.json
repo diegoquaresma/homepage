@@ -1,7 +1,7 @@
 {
 "dir" : "ltr",
 "lang" : "pt-br",
-"name" : "Núcleo - Inovaction | Ideas",
+"name" : "Núcleo - Innovaction | Ideas",
 "scope" : "/",
 "display" : "standalone",
 "start_url" : "https://www.nucleo.sampa.br/",
@@ -56,7 +56,7 @@
     "density": "4.0"
   },
   {
-    "src": "android-icon-36x36.png",
+    "src": "atoms 512",
     "sizes": "512x512",
     "type": "image\/png",
     "density": "8.0"
